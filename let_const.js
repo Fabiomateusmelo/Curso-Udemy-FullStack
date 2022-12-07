@@ -26,6 +26,11 @@ var resultadoTriplicado = resultadoTriplicado + 5*/
 
 console.log(resultadoTriplicado)
 console.log(typeof primeiroNumero) // tipo number
+
+console.log(typeof primeiroNumero, primeiroNumero) // primeiro o tipo e depois o valor
+const aprovado = true
+console.log(typeof aprovado, aprovado)
+
 console.log(typeof numeroString) // tipo string
 console.log(primeiroNumero + numeroString) // number + string = concatenação
 console.log(typeof numeroString + primeiroNumero) // pega o tipo da primeiro e concatena com o segundo
