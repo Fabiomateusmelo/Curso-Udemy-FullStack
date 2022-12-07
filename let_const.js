@@ -28,5 +28,5 @@ console.log(resultadoTriplicado)
 console.log(typeof primeiroNumero) // tipo number
 console.log(typeof numeroString) // tipo string
 console.log(primeiroNumero + numeroString) // number + string = concatenação
-console.log(typeof numeroString + primeiroNumero) // pega o tipo da primeira e concatena com o segundo
+console.log(typeof numeroString + primeiroNumero) // pega o tipo da primeiro e concatena com o segundo
 console.log(typeof (numeroString + primeiroNumero)) // pega o tipo do primeiro
