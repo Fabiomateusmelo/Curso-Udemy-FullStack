@@ -1,37 +1,41 @@
 // let pode reatribuir valor.
+// Utilizamos camelCase em variáveis
 // Alt + setas = mover linhas
-let nome
-nome = 'Fábio'
+let nome // Declarou a variável, mas sem nenhum valor
+nome = 'Fábio' // inicializando a variável
 console.log(nome)
-nome = 'Bianca'
+nome = 'Bianca' // reatribuição de valor
 console.log(nome)
 
-const nometeste = 'João'
-console.log(nometeste)
+const nomeTeste = 'João'
+console.log(nomeTeste)
 // const não aceita reatribuição de valores.
-// nometeste = 'Pedro' // retorna com erro
-// console.log(nometeste)
+// nomeTeste = 'Pedro' // retorna com erro
+// console.log(nomeTeste)
 
 const primeiroNumero = 5
 const numeroString = '20'
 const segundoNumero = 10
+
 const resultado = primeiroNumero * segundoNumero
+console.log(resultado)
+
 const resultadoDuplicado = resultado * 2
+console.log(resultadoDuplicado)
 
-let resultadoTriplicado = resultado * 3
-resultadoTriplicado = resultadoTriplicado + 5
-
-/*var resultadoTriplicado = resultado * 3
-var resultadoTriplicado = resultadoTriplicado + 5*/
-
+const resultadoTriplicado = resultado * 3 
 console.log(resultadoTriplicado)
-console.log(typeof primeiroNumero) // tipo number
 
+console.log(typeof primeiroNumero) // typeof para ver o tipo
 console.log(typeof primeiroNumero, primeiroNumero) // primeiro o tipo e depois o valor
 const aprovado = true
+
 console.log(typeof aprovado, aprovado)
 
 console.log(typeof numeroString) // tipo string
+
 console.log(primeiroNumero + numeroString) // number + string = concatenação
+
 console.log(typeof numeroString + primeiroNumero) // pega o tipo da primeiro e concatena com o segundo
+
 console.log(typeof (numeroString + primeiroNumero)) // pega o tipo do primeiro

@@ -1,25 +1,34 @@
-//console.log('Meu nome é "Fábio". Estou aprendendo JS às', 8, 'da manhã.');
+console.log('Meu nome é "Fábio". Estou aprendendo JS às', 8, 'da manhã.');
+// ', 8, ' para reconhecer como Number no meio dessa String
 
 //** faz a potênciação
 //% retorna o resto da divisão
 
 /*let contador = 5; 
-console.log(contador++);
-// console.log(--contador); 
+console.log(contador++); // mostra primeiro o valor antigo depois incrementa
+console.log(contador); // mostra numero incrementado
+console.log(++contador); // incrementa e depois mostra o valor
+console.log(--contador); // decremento e depois mostra o valor
+// maneira correta para não gerar futuros bugs, incrementa depois chama
+contador++;
 console.log(contador);*/
 
-/*const add = 50
+const add = 50
 let contador = 10
 contador = contador + add
+console.log(contador)
 contador = contador + add
 console.log(contador) // 60
  
 // Ou assim, que é mais prático adiciona 10 + 50 na primeira chamada, depois vai incrementando 50 cada vez que é chamado.
- 
-// contador += 5 
-// contador *= 5
-// contador **= 2
-// contador -= 100*/
+contador += 5 
+console.log(contador)
+contador *= 2
+console.log(contador)
+contador **= 2
+console.log(contador)
+contador -= 100
+console.log(contador)
 
 /*const num1 = 10
 const num2 =  5
